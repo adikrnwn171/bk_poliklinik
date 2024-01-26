@@ -13,7 +13,7 @@ $id_daftar_poli = $_GET['id'];
     <section class="content">
         <div class="row">
             <div class="col-11 card">
-                <form action="pages/dokter/periksa_pasien_proses.php" method="post" role="form">
+                <form action="pages/dokter/periksa_pasien_edit_proses.php" method="post" role="form">
                 <?php
                 include "conf/conn.php";
                 $query=mysqli_query($conn,"SELECT * FROM periksa 
